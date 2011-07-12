@@ -11,7 +11,7 @@ So for a general outline:
 	 - backchan.nl
 	 - tincan classrom
 	 - tin can meeting
- - Contributions
+ - Contributions (not sure we'll need to do this explicitly-is that a thing?)
  - Research Plan (required, I guess? A waste of time.)
 
 
