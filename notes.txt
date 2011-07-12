@@ -1,0 +1,18 @@
+
+Susanne's proposal seems like a reasonable strategy: http://www.mit.edu/~susannes/proposal/seitinger_proposal.pdf
+
+
+So for a general outline:
+
+
+ - Introduction
+ - Background
+ - Research
+	 - backchan.nl
+	 - tincan classrom
+	 - tin can meeting
+ - Contributions
+ - Research Plan (required, I guess? A waste of time.)
+
+
+The core question is what the themes are going to look like. Talking about the projects is the easy part and we can just dredge up those documents on an as-needed basis. The same goes for methodological stuff. Basically, there's nothing hard here except figuring out exactly how to frame it, and assembling/organizing related work which I haven't had to do at this scale yet.
