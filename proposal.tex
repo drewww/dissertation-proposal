@@ -1,5 +1,59 @@
+\documentclass{tufte-handout}
 
-\section{Introduction}
+%\geometry{showframe}% for debugging purposes -- displays the margins
+
+\usepackage{amsmath}
+
+% Set up the images/graphics package
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{graphics/}}
+
+\title{Drew Harry Dissertation Proposal (real title to follow)}
+\author[Drew Harry]{Drew Harry}
+%\date{24 January 2009}  % if the \date{} command is left out, the current date will be used
+
+% The following package makes prettier tables.  We're all about the bling!
+\usepackage{booktabs}
+
+% The units package provides nice, non-stacked fractions and better spacing
+% for units.
+\usepackage{units}
+
+% The fancyvrb package lets us customize the formatting of verbatim
+% environments.  We use a slightly smaller font.
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+
+% Small sections of multiple columns
+\usepackage{multicol}
+
+% Provides paragraphs of dummy text
+\usepackage{lipsum}
+
+% These commands are used to pretty-print LaTeX commands
+\newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% command name -- adds backslash automatically
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
+\newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+\newcommand{\docenv}[1]{\textsf{#1}}% environment name
+\newcommand{\docpkg}[1]{\texttt{#1}}% package name
+\newcommand{\doccls}[1]{\texttt{#1}}% document class name
+\newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
+
+\begin{document}
+
+\maketitle% this prints the handout title, author, and date
+
+\begin{abstract}
+\noindent My awesome abstract.
+\end{abstract}
+
+%\printclassoptions
+
+% looks like I'm allowed to have text here, but not going to...
+
+\section{Introduction}\label{sec:introduction}
 
 % There are a few different strategies we can go with here. We could attack the beyond being there problem, and go for the "thinking about face to face" bit. Alternatively, a more general plea for shifting attention back to synchronicity - asynchronous has its issues, and we still (rightfully) privilege real time encounters. The motivating metaphor here being the weirdly object-centric models of asychronous encounters, not people-centric models.
 
@@ -17,7 +71,7 @@
 
 Throughout the history of mediated communication, there have been fundamental questions about what role mediated communication systems should play. Early in their development, a clear imperative strategy emerged: computer mediated communication systems should focus on recreating the experience of being face-to-face with another person. In a sense, this strategy advocated for building systems that seemed to be invisible to people using them. \cite{weiser} Success was relatively easy to judge, too. Did it feel like you were face to face with someone or not?
 
-There's an undeniable magic to the pursuit of recreating face-to-face communication at a distance. It is most poetically captured in the famous \"Hole in Space\" \cite{hole_in_space} piece, visually and audibly connecting a storefront in LA and New York in a way that seemed to make distance disappear. This same magic continues to motivate modern communication tools from major companies; Cisco and Apple, among others \cite{commercials}, have played on this utopian vision of a future where distance is no barrier to communication in their commercials for so-called ``telepresence'' tools and mobile phones with cameras, respectively. This vision is not simply aspirational, either. Tools to communicate with physically distant people either with audio alone or with an added video connection play a role in the daily lives of millions of people. This desire to experience ``being there'' with someone else is powerful and compelling. 
+There's an undeniable magic to the pursuit of recreating face-to-face communication at a distance. It is most poetically captured in the famous ``Hole in Space'' \cite{hole_in_space} piece, visually and audibly connecting a storefront in LA and New York in a way that seemed to make distance disappear. This same magic continues to motivate modern communication tools from major companies; Cisco and Apple, among others \cite{commercials}, have played on this utopian vision of a future where distance is no barrier to communication in their commercials for so-called ``telepresence'' tools and mobile phones with cameras, respectively. This vision is not simply aspirational, either. Tools to communicate with physically distant people either with audio alone or with an added video connection play a role in the daily lives of millions of people. This desire to experience ``being there'' with someone else is powerful and compelling. 
 
 It is not, however, the only way to approach this problem. In their famous 1992 paper, Hollan and Stornetta \cite{beyond_being_there} suggest an alternative approach which they named ``beyond beyond being there''. They argue that seeking to recreate the experience of ``being there'' was in a way an abdication of our responsibility as designers that left un-explored an important design space. In particular, they urge us to think not about ways to minimize the experience of mediation in communication, but to look for ways that mediation can add value to interactions. To take this perspective seriously, we need to shift away from a view of face-to-face interaction as being always better than interactions mediated by technology and instead think critically about potential limitations and challenges with face-to-face interaction and potential benefits that mediation can offer. 
 
@@ -152,3 +206,11 @@ While the reflection-oriented projects discussed earlier are about augmenting an
 
 \section{Timeline}
 
+
+
+\bibliography{sample-handout}
+\bibliographystyle{plainnat}
+
+
+
+\end{document}
