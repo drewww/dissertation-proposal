@@ -17,9 +17,9 @@
 
 Throughout the history of mediated communication, there have been fundamental questions about what role mediated communication systems should play. Early in their development, a clear imperative strategy emerged: computer mediated communication systems should focus on recreating the experience of being face-to-face with another person. In a sense, this strategy advocated for building systems that seemed to be invisible to people using them. \cite{weiser} Success was relatively easy to judge, too. Did it feel like you were face to face with someone or not?
 
-There's an undeniable magic to the pursuit of recreating face-to-face communication at a distance. It is most poetically captured in the famous \"Hole in Space\" \cite{hole_in_space} piece, visually and audibly connecting a storefront in LA and New York in a way that seemed to make distance disappear. This same magic continues to motivate modern communication tools from major companies; Cisco and Apple, among others \cite{commercials}, have played on this utopian vision of a future where distance is no barrier to communication in their commercials for so-called \"telepresence\" tools and mobile phones with cameras, respectively. This vision is not simply aspirational, either. Tools to communicate with physically distant people either with audio alone or with an added video connection play a role in the daily lives of millions of people. This desire to experience \"being there\" with someone else is powerful and compelling. 
+There's an undeniable magic to the pursuit of recreating face-to-face communication at a distance. It is most poetically captured in the famous \"Hole in Space\" \cite{hole_in_space} piece, visually and audibly connecting a storefront in LA and New York in a way that seemed to make distance disappear. This same magic continues to motivate modern communication tools from major companies; Cisco and Apple, among others \cite{commercials}, have played on this utopian vision of a future where distance is no barrier to communication in their commercials for so-called ``telepresence'' tools and mobile phones with cameras, respectively. This vision is not simply aspirational, either. Tools to communicate with physically distant people either with audio alone or with an added video connection play a role in the daily lives of millions of people. This desire to experience ``being there'' with someone else is powerful and compelling. 
 
-It is not, however, the only way to approach this problem. In their famous 1992 paper, Hollan and Stornetta \cite{beyond_being_there} suggest an alternative approach which they named \"beyond beyond being there\". They argue that seeking to recreate the experience of \"being there\" was in a way an abdication of our responsibility as designers that left un-explored an important design space. In particular, they urge us to think not about ways to minimize the experience of mediation in communication, but to look for ways that mediation can add value to interactions. To take this perspective seriously, we need to shift away from a view of face-to-face interaction as being always better than interactions mediated by technology and instead think critically about potential limitations and challenges with face-to-face interaction and potential benefits that mediation can offer. 
+It is not, however, the only way to approach this problem. In their famous 1992 paper, Hollan and Stornetta \cite{beyond_being_there} suggest an alternative approach which they named ``beyond beyond being there''. They argue that seeking to recreate the experience of ``being there'' was in a way an abdication of our responsibility as designers that left un-explored an important design space. In particular, they urge us to think not about ways to minimize the experience of mediation in communication, but to look for ways that mediation can add value to interactions. To take this perspective seriously, we need to shift away from a view of face-to-face interaction as being always better than interactions mediated by technology and instead think critically about potential limitations and challenges with face-to-face interaction and potential benefits that mediation can offer. 
 
 % think about listifying this section
 
@@ -28,11 +28,11 @@ Many of these challenges are common sense, even if they are frequently forgotten
 % is this a second order effect?
 For a variety of reasons, the power dynamics in social situations are more easily subverted in mediated environments. 
 
-All of these challenges and differences between face-to-face interaction and mediated communication (broadly construed) represent a major opportunity. By designing systems that seek to mitigate the challenges of being face-to-face and maximize the potential benefits of mediation, we can create systems that reach the goal of going \"beyond being there\". 
+All of these challenges and differences between face-to-face interaction and mediated communication (broadly construed) represent a major opportunity. By designing systems that seek to mitigate the challenges of being face-to-face and maximize the potential benefits of mediation, we can create systems that reach the goal of going ``beyond being there''. 
 
 Part of what's attractive about mediated communication systems is that there is a tremendous variety of ways to design and use them once we set aside a desire to recreate face-to-face interaction. Although in this section I've contrasted mediated communication with face-to-face communication in a way that might imply that mediated communication systems are somehow monolithic and self-similar, the survey of related systems in the section to follow will illustrate the tremendous range of potential systems in this space and demonstrate how thoughtful designs can have widely varying impacts on the experience of communication or collaboration. 
 
-In my work I seek to explore part of the design space identified by Hollan and Stornetta by designing, building, and studying communication systems that go \"beyond being there\". The full space of systems for going \"beyond being there\" is vast and I have focused my work in a number of ways. Although many of the interfaces proposed as being \"beyond being there\" in their original paper are asynchronous systems, I focus exclusively on synchronous experiences -- co-temporal experiences where participants are communicating and using a system at the same time. I focus primarily on medium sized groups and crowds. Although the groups are always interacting co-temporally, they are sometimes all in one physical place, and sometimes geographically distributed. There are two major design strategies that my work focuses on: adding non-verbal communication channels to an experience and creating richer, behavior representations of conversation partners. 
+In my work I seek to explore part of the design space identified by Hollan and Stornetta by designing, building, and studying communication systems that go ``beyond being there''. The full space of systems for going ``beyond being there'' is vast and I have focused my work in a number of ways. Although many of the interfaces proposed as being ``beyond being there'' in their original paper are asynchronous systems, I focus exclusively on synchronous experiences -- co-temporal experiences where participants are communicating and using a system at the same time. I focus primarily on medium sized groups and crowds. Although the groups are always interacting co-temporally, they are sometimes all in one physical place, and sometimes geographically distributed. There are two major design strategies that my work focuses on: adding non-verbal communication channels to an experience and creating richer, behavior representations of conversation partners. 
 
 It can be difficult to describe exactly what the contributions of design focused research can be. Is making something that people describe as useful a sufficient outcome, or should we expect more? I conceive of my research as being a kind of design cartographer. Given the design space I outlined earlier, I try to identify and describe compelling and effective design strategies. Beyond the specific contributions of design elements that are valuable, I step back from the specifics of each system and theorize about general themes that are relevant to any sort of design work in the space. In this case, these are themes like stages, performative attention and contribution, norms, power dynamics, and grounding. By contributing in both of these ways, I seek to support designers and researchers working both with modern constraints as well as contribute theoretically to ways of thinking about design of co-temporal mediated experiences that will give us the tools to think about as-yet-unimagined design spaces.
 
@@ -49,6 +49,47 @@ In this dissertation proposal, I will start with a survey of relevant related sy
 
 \section{Background}
 
+Designing new systems for collaboration and communication, as opposed to studying existing systems, has long been a major stream of HCI and CSCW research. Although 
+
+
+% this whole argument may not really have a place here, but go with it for now...
+
+There has been, however, somewhat of a shift in interest away from the kind of co-temporal interfaces and experiences I'm interested in towards building and studying systems for asynchronous experiences between much larger numbers of people. The advent of research on mass collaboration systems like Wikipedia \cite{kittur} and ``crowd sourcing'' \cite{bernstein} is part of a larger shift away from what was once the center of gravity of systems research. This shift is a natural response to changes in both technology and the common experience of modern collaborative technology users in a web-oriented world where asynchronous interaction became the norm.
+
+In this work, I argue that we should not neglect the design of co-temporal interfaces and experiences for small groups. We should not think just about how to marshal large numbers of people, but think too about how small groups of people who know each other work, recognizing that much of that work happens face-to-face or co-temporally while geographically distant. It is not effective to treat these interactions as a simple increase in tempo on asynchronous interactions. In co-temporal systems, experiences of presence and understanding how we are perceived (and can control those perceptions) by others are quite important. In asynchronous systems, these issues are minimized; we experience others through their actions on shared objects like documents. In my work, I seek to create richer representations of people and better-support person-person interaction instead of person-document-person interaction. 
+
+To further motivate my work and situate it within the larger space of systems design research, I survey related work in this section. The work is organized into three major themes: systems to represent people and reflect on their participation, systems that add new visual, audio, and non-verbal communication channels, and theoretical perspectives. 
+
+\subsection{Identity and Reflection}
+
+
+\subsection{Channels}
+
+
+\subsection{Theoretical Perspectives}
+
+
+% stuff from cscw paper:
+% systems for reflection
+% - second messenger
+% - "social mirror" (Karahalios) also bergstrom
+% - Meeting Mediator
+% 
+% systems adding new channels
+% - (all the backchan literature: yardi, mccarthy, huang, kellog, yankelovich)
+% - do a section on nunameker's work and why it's weird
+% - 
+
+% - we'll want to at the very least nod to thinks like voiceloops, and all the audio/video stuff like portholes and thunderwire and that kind of thing. farm my generals reading for that part.
+%
+
+
+% theoretical perspectives
+% - practice lens?
+% - ethnomethodology? 
+% - re-farm wanda's reading list to see what else I can pull from there.
+
+%
 % We'll need to do a little organization here. Obviously, farm the references from the Tin Can Edu CSCW paper + backchan.nl paper. We'll need more, ofc, but it's a start. I suspect there will be some ways to separate out systems that allow communication versus those that simply reflect on a main channel. Maybe it's about whether the system itself is a single channel, multi channel, main channel or side channel? 
 
 % write a methodological section here about why it's useful to study this with design work
@@ -56,12 +97,13 @@ In this dissertation proposal, I will start with a survey of relevant related sy
 
 \section{Systems in Practice}
 
+\subsection{Methodology}
+
 \subsection{Meeting Spaces}
 \subsection{backchan.nl}
 \subsection{Tin Can Classroom}
 \subsection{Tin Can Meetings}
 
-\subsection{Methodology}
 
 \section{Contributions}
 
