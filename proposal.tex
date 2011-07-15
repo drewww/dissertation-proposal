@@ -69,9 +69,9 @@
 
 % Okay, here's what we'll do - leave the sync/async pendulum stuff to the background section as a way of framing the history of system design in this space. Focus on the beyond being there story for the introduction.
 
-Throughout the history of mediated communication, there have been fundamental questions about what role mediated communication systems should play. Early in their development, a clear imperative strategy emerged: computer mediated communication systems should focus on recreating the experience of being face-to-face with another person. In a sense, this strategy advocated for building systems that seemed to be invisible to people using them. \cite{weiser} Success was relatively easy to judge, too. Did it feel like you were face to face with someone or not?
+Throughout the history of mediated communication, there have been fundamental questions about what role mediated communication systems should . Early in their development, a clear imperative strategy emerged: computer mediated communication systems should focus on recreating the experience of being face-to-face with another person. In a sense, this strategy advocated for building systems that seemed to be invisible to people using them. \cite{weiser} Success was relatively easy to judge, too. Did it feel like you were face to face with someone or not?
 
-There's an undeniable magic to the pursuit of recreating face-to-face communication at a distance. It is most poetically captured in the famous ``Hole in Space'' \cite{hole_in_space} piece, visually and audibly connecting a storefront in LA and New York in a way that seemed to make distance disappear. This same magic continues to motivate modern communication tools from major companies; Cisco and Apple, among others \cite{commercials}, have played on this utopian vision of a future where distance is no barrier to communication in their commercials for so-called ``telepresence'' tools and mobile phones with cameras, respectively. This vision is not simply aspirational, either. Tools to communicate with physically distant people either with audio alone or with an added video connection play a role in the daily lives of millions of people. This desire to experience ``being there'' with someone else is powerful and compelling. 
+There's an undeniable magic to the pursuit of recreating face-to-face communication at a distance. This magic is most poetically captured in the famous ``Hole in Space'' \cite{hole_in_space} piece, visually and audibly connecting a storefront in LA and New York in a way that seemed to make distance disappear. This same magic continues to motivate modern communication tools from major companies; Cisco and Apple, among others \cite{commercials}, have played on this utopian vision of a future where distance is no barrier to communication in their commercials for so-called ``telepresence'' tools and mobile phones with cameras, respectively. This vision is not simply aspirational, either. Tools to communicate with physically distant people either with audio alone or with an added video connection play a role in the daily lives of millions of people. This desire to experience ``being there'' with someone else is powerful and compelling. 
 
 It is not, however, the only way to approach this problem. In their famous 1992 paper, Hollan and Stornetta \cite{beyond_being_there} suggest an alternative approach which they named ``beyond beyond being there''. They argue that seeking to recreate the experience of ``being there'' was in a way an abdication of our responsibility as designers that left un-explored an important design space. In particular, they urge us to think not about ways to minimize the experience of mediation in communication, but to look for ways that mediation can add value to interactions. To take this perspective seriously, we need to shift away from a view of face-to-face interaction as being always better than interactions mediated by technology and instead think critically about potential limitations and challenges with face-to-face interaction and potential benefits that mediation can offer. 
 
@@ -112,7 +112,73 @@ There has been, however, somewhat of a shift in interest away from the kind of c
 
 In this work, I argue that we should not neglect the design of co-temporal interfaces and experiences for small groups. We should not think just about how to marshal large numbers of people, but think too about how small groups of people who know each other work, recognizing that much of that work happens face-to-face or co-temporally while geographically distant. It is not effective to treat these interactions as a simple increase in tempo on asynchronous interactions. In co-temporal systems, experiences of presence and understanding how we are perceived (and can control those perceptions) by others are quite important. In asynchronous systems, these issues are minimized; we experience others through their actions on shared objects like documents. In my work, I seek to create richer representations of people and better-support person-person interaction instead of person-document-person interaction. 
 
-To further motivate my work and situate it within the larger space of systems design research, I survey related work in this section. The work is organized into three major themes: systems to represent people and reflect on their participation, systems that add new visual, audio, and non-verbal communication channels, and theoretical perspectives. 
+To further motivate my work and situate it within the larger space of systems design research, I survey related work in this section. The work is organized into three major themes: adding new communication channels, ways to help people reflect on the participation of themselves and others, and theoretical perspectives.
+
+
+\subsection{Channels}
+
+The primary focus of my work is on designing systems that add new communication channels and understanding how those channels operate in contrast to existing channels. In this section, I will present related work that addresses some of these questions.
+
+The work most directly related to these questions comes from research into so-called ``backchannels'' in presentation and classroom settings.
+
+% flesh this out
+
+Much of the work on creating shared media spaces, driven by experiments at PARC in the late 1980s and early 1990s \cite{get_cites_from_experiences_in_the_use_of_media_spaces_paper} is salient to my work. Although in some cases this work focused on creating new primary channels, researchers became quickly attuned to problems of privacy and attention because such systems always co-exist with face-to-face communication, in much the same way that the systems that I design do.
+
+% now summarize. 
+
+
+
+
+% thundewire is just audio, basically a single-channel mumble. not so much about results as describing practices that evolved. 
+% portholes is ambient awareness about remote places, not live interaction. cut it?
+% videowindow is just like hole in space - audio/video fixed in space
+
+% also mention virtual world stuff? MASSIVE might be worth a quick ref
+
+% "shared media systems"
+
+% - video projects like thunderwire + portholes
+% - videowindow
+
+
+% organize the work in this space 
+% projects to talk about:
+% - voiceloops
+% - backchannel literature
+% - social proxies
+% - mention conferencing apps
+% - Nunamaker
+% - zephyr?
+
+
+% \subsection{Theoretical Perspectives}
+% thinking about leaving this out
+
+% stuff from cscw paper:
+% systems for reflection
+% - second messenger
+% - "social mirror" (Karahalios) also bergstrom
+% - Meeting Mediator
+% 
+% systems adding new channels
+% - (all the backchan literature: yardi, mccarthy, huang, kellog, yankelovich)
+% - do a section on nunameker's work and why it's weird
+% - 
+
+% - we'll want to at the very least nod to thinks like voiceloops, and all the audio/video stuff like portholes and thunderwire and that kind of thing. farm my generals reading for that part.
+%
+
+
+% theoretical perspectives
+% - practice lens?
+% - ethnomethodology? 
+% - re-farm wanda's reading list to see what else I can pull from there.
+
+%
+% We'll need to do a little organization here. Obviously, farm the references from the Tin Can Edu CSCW paper + backchan.nl paper. We'll need more, ofc, but it's a start. I suspect there will be some ways to separate out systems that allow communication versus those that simply reflect on a main channel. Maybe it's about whether the system itself is a single channel, multi channel, main channel or side channel? 
+
+% write a methodological section here about why it's useful to study this with design work
 
 \subsection{Reflection}
 
@@ -147,49 +213,6 @@ Researchers have done significant work in this area, too.
 
 % how to fit in social proxies and social translucense
 
-
-\subsection{Channels}
-
-While the reflection-oriented projects discussed earlier are about augmenting an existing primary communication channel with additional information, there is also a large body of work that focuses on adding communication channels to an existing communication channel, as well as creating new kinds of primary communication channels.
-
-% organize the work in this space 
-% projects to talk about:
-% - voiceloops
-% - video projects like thunderwire + portholes
-% - backchannel literature
-% - social proxies
-% - mention conferencing apps
-% - Nunamaker
-% - 
-
-
-% \subsection{Theoretical Perspectives}
-% thinking about leaving this out
-
-% stuff from cscw paper:
-% systems for reflection
-% - second messenger
-% - "social mirror" (Karahalios) also bergstrom
-% - Meeting Mediator
-% 
-% systems adding new channels
-% - (all the backchan literature: yardi, mccarthy, huang, kellog, yankelovich)
-% - do a section on nunameker's work and why it's weird
-% - 
-
-% - we'll want to at the very least nod to thinks like voiceloops, and all the audio/video stuff like portholes and thunderwire and that kind of thing. farm my generals reading for that part.
-%
-
-
-% theoretical perspectives
-% - practice lens?
-% - ethnomethodology? 
-% - re-farm wanda's reading list to see what else I can pull from there.
-
-%
-% We'll need to do a little organization here. Obviously, farm the references from the Tin Can Edu CSCW paper + backchan.nl paper. We'll need more, ofc, but it's a start. I suspect there will be some ways to separate out systems that allow communication versus those that simply reflect on a main channel. Maybe it's about whether the system itself is a single channel, multi channel, main channel or side channel? 
-
-% write a methodological section here about why it's useful to study this with design work
 
 
 \section{Systems in Practice}
