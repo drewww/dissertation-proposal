@@ -146,11 +146,30 @@ To further motivate my work and situate it within the larger space of systems de
 
 The primary focus of my work is on designing systems that add new communication channels and understanding how those channels operate in contrast to existing channels. In this section, I will present related work that addresses some of these questions.
 
-The work most directly related to these questions comes from research into so-called ``backchannels'' in presentation and classroom settings. Yardi describes how a chat-based backchannel operates over a semester in a classroom \citet{Yardi:2006uk}, McCarthy et al describe a similar approach at a conference \citet{mccarthy_digital_2004}. Backchannels can also be considered a potential part of non-event-oriented contexts too, like long-term co-working among small groups. \citet{Huang:2003ef} All of these projects my interest in creating new spaces for group communication, and some of these kinds of systems are integrated into the physical spaces the group inhabits. Backchannels are not just focused on co-located groups, however, and Kellogg (among others) \citet{kellogg_leveraging_2006} \citet{Yankelovich:2005bx} has addressed how text and audio backchannels can operate in distributed contexts. This is the main literature that I hope to contribute to. Although past work has addressed in general terms the different ways people use backchannels, it has not sufficiently explained the complicated issues around channel selection, attention, distraction, and identity. Furthermore, in my work I try to move beyond just adding new text or audio channels by adding other kinds of non-verbal signals.1
+The work most directly related to these questions comes from research into so-called ``backchannels'' in presentation and classroom settings. Yardi describes how a chat-based backchannel operates over a semester in a classroom \citet{Yardi:2006uk}, McCarthy et al describe a similar approach at a conference \citet{mccarthy_digital_2004}. Backchannels can also be considered a potential part of non-event-oriented contexts too, like long-term co-working among small groups. \citet{Huang:2003ef} All of these projects my interest in creating new spaces for group communication, and some of these kinds of systems are integrated into the physical spaces the group inhabits. Backchannels are not just focused on co-located groups, however, and Kellogg (among others) \citet{kellogg_leveraging_2006} \citet{Yankelovich:2005bx} has addressed how text and audio backchannels can operate in distributed contexts. This is the main literature that I hope to contribute to. Although past work has addressed in general terms the different ways people use backchannels, it has not sufficiently explained the complicated issues around channel selection, attention, distraction, and identity. Furthermore, in my work I try to move beyond just adding new text or audio channels by adding other kinds of non-verbal signals.
+
+\begin{marginfigure}
+	\includegraphics{figures/kellog_social_proxies.png}
+	\caption{Social proxies.}
+	\label{fig:social-proxies}
+\end{marginfigure}
+
+\begin{marginfigure}
+	\includegraphics{figures/videowindow.png}
+	\caption{Videowindow.}
+	\label{fig:videowindow}
+\end{marginfigure}
+
 
 Much of the work on creating shared media spaces, driven by experiments at PARC in the late 1980s and early 1990s is salient to my work. Although in some cases this work focused on creating new primary channels, researchers became quickly attuned to problems of privacy and attention because such systems always co-exist with face-to-face communication, in much the same way that the systems that I design do. The earliest work at PARC \citet{olsen_bly_portland} focused on creating flexible video connections between offices and conference rooms. Subsequent work focused less on a phone-call-like model where connections are created and ended and shifted towards creating spaces with different affordances. Sometimes these involved connecting multiple individuals together, as in CAVECAT \citet{cavecat}, other times researchers focused on creating a long term persistent video connections in, for instance, common areas of distributed research groups in the VideoWindow project\citet{videowindow}. 
 
 Over time, attention shifted more towards a taking advantage of the possibilities to do more than just create ``being there'' experiences. Some researchers experimented with audio-only spaces \citet{thunderwire}, finding that video was not required to create a sense of connection and space for users, but that the properties of audio did require audio-specific etiquette and coping strategies for the system to be useful. iCom represented a particularly rich design perspective on connecting spaces  \citet{stefan_icom}, recognizing that awareness need not be limited to visual awareness, but can extend to information awareness which can be productively embedded in a media space. This embodies the ``beyond being there'' model best of all the work in this research stream: not just trying to create a transparent window between remote spaces, but making something better than a window could be.
+
+\begin{marginfigure}
+	\includegraphics{figures/icom.jpg}
+	\caption{iCom}
+	\label{fig:icom}
+\end{marginfigure}
 
 
 % also cite karrie's 
@@ -158,6 +177,25 @@ Over time, attention shifted more towards a taking advantage of the possibilitie
 
 
 Serendipity also evolved as both an important part of sharing an office environment that was not present with most media space systems. Portholes \citet{portholes} addressed this explicitly by giving people a broader view of remote spaces instead of focusing just on main channel interactions. While my work is not concerned with serendipity, this kind of visual side channel carries important awareness information in much the same way that the side channels in my systems add important contextual information to an interaction. CRUISER \citet{fish_kraut_cruiser} offered non-verbal ways to signal a desire to emulate some of the office hallway etiquette for signaling a desire to drop in and chat informally, without the explicitness of placing a call. The addition of moves like ``cruise'', ``glance'', and ``visit'' are similar in approach to actions in my work like voting in backchan.nl, promoting ideas in Tin Can, or move around the field in Information Spaces. 
+
+\begin{marginfigure}
+	\includegraphics{figures/CRUISER.png}
+	\caption{CRUISER.}
+	\label{fig:cruiser}
+\end{marginfigure}
+
+\begin{marginfigure}
+	\includegraphics{figures/portholes.png}
+	\caption{Portholes.}
+	\label{fig:portholes}
+\end{marginfigure}
+
+\begin{marginfigure}
+	\includegraphics{figures/nunamaker_gdss.png}
+	\caption{GDSS}
+	\label{fig:gdss}
+\end{marginfigure}
+
 
 Early media space researchers proposed a distinction between ``formal'' systems from ``informal'' systems. \citet{olsen_bly_portland} While most of the work discussed here (and much of my own work) tends towards the informal side of that continuum, there are some formal elements in my work and it's productive to consider related work on the more formal end of that spectrum, too. This formality manifests most strongly in Group Decision Support Systems research. These systems (exemplified by the work of Nunamaker \citet{nunamaker_gdss}) provide prescriptive systems to support particular brainstorming, decision making, outlining, and voting. In the typical GDSS configuration, each participant has their own computer and interact with shared structural data in some way, like submitting a new idea or voting on a proposal. The lack of consistent results in comparative work in this area \citet{dennis_results_summary} illustrates the importance of focused design analysis to contextualize findings; it is not useful to view all brainstorming systems as equivalent and comparable in analysis, and I hope that my work will illustrate how the subtleties in interface and approach can have big impacts on outcomes that help explain some of the contradictory results in past GDSS work.
 
@@ -230,7 +268,39 @@ Early media space researchers proposed a distinction between ``formal'' systems 
 
 Understanding how we present ourselves to others has been a topic of sociological inquiry for quite some time. Although many of the insights of scholars like Goffman \citet{goffman_presentation_of_self} \citet{someone_else} about how we communicate and interpret information about who we are and how we want to be treated are still relevant, what information is available about people has changed substantially. In some of the examples in this section, designers have added some new bit of information about people to a face to face discussion; in others, we don't have any of the traditional information we would get from being face to face with someone and rely on new types of signals to create a sense of people around us. Part of what sets mediated communication apart is the ability to accumulate behavioral histories and represent and reflect those histories to ourselves and others.
 
+\begin{marginfigure}
+	\includegraphics{figures/second-messenger.png}
+	\caption{Second Messenger.}
+	\label{fig:second-messenger}
+\end{marginfigure}
+
+% \begin{marginfigure}
+% 	\includegraphics{figures/meeting_mediator.png}
+% 	\caption{Meeting mediator.}
+% 	\label{fig:meeting-mediator}
+% \end{marginfigure}
+
+\begin{marginfigure}
+	\includegraphics{figures/conversation_clock.png}
+	\caption{Conversation clock.}
+	\label{fig:conversation-clock}
+\end{marginfigure}
+
+\begin{marginfigure}
+	\includegraphics{figures/conversation_clusters.jpg}
+	\caption{Conversation clusters.}
+	\label{fig:conversation-clusters}
+\end{marginfigure}
+
+\begin{marginfigure}
+	\includegraphics{figures/conversation_votes.jpg}
+	\caption{Conversation votes.}
+	\label{fig:conversation-votes}
+\end{marginfigure}
+
+
 My work is substantially inspired by the work of Joan DiMicco on the Second Messenger project. \citet{second_messenger} In this project, participants in a group discussion were presented with a constantly-updating bar-chart visualization representing the relative amount of time they had talked during the discussion. They found that while people who participated a lot without a visualization tended to moderate their participation when the visualization was present, people with low participation did not participate more just because others were participating less. Meeting Mediator \citet{meeting_mediator} took a similar approach, but focused on situations where groups of two people could see each other and had to interact with another group of two people who they could only hear. Using a different visualization, Kim found that groups were more interactive with the system than without, although there was not a correlation with group performance. 
+
 
 Bergstrom has done a series of projects that adopt a similar design strategy. Conversation Clusters pulls topics from an audio conversation and presents them in clusters on a table-top display. \citet{conv_clusters} Conversation Clock, like Second Messenger and Meeting Mediator, visualizes conversation participation, but uses a timeline metaphor instead of a aggregative metaphor. \citet{conv_clock} Conversation Votes lets uses discreetly vote about the progress of a discussion, and displays anonymous votes on a table-based display.\citet{conv_votes} Karahalios describes this design space as ``social mirrors''. \citet{social_mirrors}
 
@@ -282,6 +352,7 @@ I have explored my primary theme of adding communication channels to synchronous
 For a period, free form virtual worlds \sidenote{As opposed to game oriented worlds like \emph{World of Warcraft}, which are still the only major long-term commercially successful worlds.} like \emph{Second Life} seemed like they might present a credible alternative to traditional video and audio conferencing. Researchers found that people replicated certain face-to-face social conventions in virtual worlds, for instance maintaining similar interpersonal distances as a function of gender as one might in the physical world \citet{yee_interpersonal_distance} or reacting to avatar height in the same ways people do when face-to-face \citet{balison_height_or_whatever}. Furthermore, the rich signals from body language, fashion, and gaze might more easily translate to environments where we are embodied by three dimensional avatars than other alternative systems. In response, residents of \emph{Second Life} and large corporate entities like IBM \citet{something_about_ibm_in_sl} created elaborate virtual office spaces.
 
 Ultimately, this approach was simply recreating the ``being there'' approach by creating virtual spaces that looked like their physical world alternatives and assuming that avatars would be effective replacements for real bodies and failed to recognize the concrete interface challenges with interacting in a virtual world, as well as the potential benefits to working in a virtual world. In \emph{Information Spaces}, I reconsidered what a virtual world meeting space might look like and how it might give meeting participants ways to communicate with each other that they wouldn't have in face-to-face meetings. \citet{CHI_infospace_paper}
+
 
 The \emph{Information Spaces} meeting space evokes a very abstract sports stadium. The floor of the field is a colored continuum between ``Agree'' and ``Disagree''. An alternative version of the system used ``Keep Talking'' and ``Move On'' to make the tool useful in discussions that weren't composed of decision-making tasks. Avatars can use their position in the space to indicate how they feel about the decision currently being discussed. Surrounding the colored field is a sloped space, like the stands in a stadium, where avatars can stand and be seen as participants without taking a stand on the issue at hand.
 
