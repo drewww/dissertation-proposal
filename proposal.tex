@@ -71,7 +71,28 @@
 
 As researchers first started to build technology to help us communicate with other people at a distance, a clear imperative strategy emerged: computer mediated communication systems should focus on recreating the experience of being face-to-face with another person. The best system, in this model, is one that seems to disappear, in same way the best window makes us feel like there's nothing between us and the other side of the glass.
 
+\begin{marginfigure}
+	\includegraphics{figures/hole_in_space.jpg}
+	\caption{Hole in space.}
+	\label{fig:hole-in-space}
+\end{marginfigure}
+
+\begin{marginfigure}
+	\includegraphics{figures/cisco-telepresence.png}
+	\caption{Cisco telepresence.}
+	\label{fig:cisco-telepresence}
+\end{marginfigure}
+
+\begin{marginfigure}
+	\includegraphics{figures/iphone-face-to-face.png}
+	\caption{iPhone Facetime.}
+	\label{fig:facetime}
+\end{marginfigure}
+
+
+
 There's an undeniable magic to the pursuit of recreating face-to-face communication at a distance. This magic is most poetically captured in the famous ``Hole in Space'' \citet{hole_in_space} piece, visually and audibly connecting a storefront in LA and New York in a way that seemed to make distance disappear. This same magic continues to motivate modern communication tools from major companies; Cisco and Apple, among others \citet{commercials}, have played on this utopian vision of a future where distance is no barrier to communication in their commercials for so-called ``telepresence'' tools and mobile phones with cameras, respectively. This vision is not simply aspirational, either. Tools to communicate with physically distant people either with audio alone or with an added video connection play a role in the daily lives of millions of people. This desire to experience ``being there'' with someone else is powerful and compelling. 
+
 
 It is not, however, the only way to approach this problem. In their famous 1992 paper, Hollan and Stornetta \citet{beyond_being_there} suggest an alternative approach which they named ``beyond beyond being there''. They argue that seeking to recreate the experience of ``being there'' was in a way an abdication of our responsibility as designers that left an important design space un-explored. In particular, they urge us to think not about ways to minimize the experience of mediation in communication, but to look for ways that mediation can add value to interactions. To take this perspective seriously, we need to shift away from a view of face-to-face interaction as being always better than interactions mediated by technology and instead think critically about potential limitations and challenges with face-to-face interaction and potential benefits that mediation can offer. 
 
@@ -125,7 +146,7 @@ To further motivate my work and situate it within the larger space of systems de
 
 The primary focus of my work is on designing systems that add new communication channels and understanding how those channels operate in contrast to existing channels. In this section, I will present related work that addresses some of these questions.
 
-The work most directly related to these questions comes from research into so-called ``backchannels'' in presentation and classroom settings. Yardi describes how a chat-based backchannel operates over a semester in a classroom \citet{Yardi:2006uk}, McCarthy et al describe a similar approach at a conference \citet{mccarthy_digital_2004}. Backchannels can also be considered a potential part of non-event-oriented contexts too, like long-term co-working among small groups. \citet{Huang:2003ef} All of these projects my interest in creating new spaces for group communication, and some of these kinds of systems are integrated into the physical spaces the group inhabits. Backchannels are not just focused on co-located groups, however, and Kellogg (among others) \citet{kellogg_leveraging_2006} \citet{Yankelovich:2005bx} has addressed how text and audio backchannels can operate in distributed contexts. This is the main literature that I hope to contribute to. Although past work has addressed in general terms the different ways people use backchannels, it has not sufficiently explained the complicated issues around channel selection, attention, distraction, and identity. Furthermore, in my work I try to move beyond just adding new text or audio channels by adding other kinds of non-verbal signals.
+The work most directly related to these questions comes from research into so-called ``backchannels'' in presentation and classroom settings. Yardi describes how a chat-based backchannel operates over a semester in a classroom \citet{Yardi:2006uk}, McCarthy et al describe a similar approach at a conference \citet{mccarthy_digital_2004}. Backchannels can also be considered a potential part of non-event-oriented contexts too, like long-term co-working among small groups. \citet{Huang:2003ef} All of these projects my interest in creating new spaces for group communication, and some of these kinds of systems are integrated into the physical spaces the group inhabits. Backchannels are not just focused on co-located groups, however, and Kellogg (among others) \citet{kellogg_leveraging_2006} \citet{Yankelovich:2005bx} has addressed how text and audio backchannels can operate in distributed contexts. This is the main literature that I hope to contribute to. Although past work has addressed in general terms the different ways people use backchannels, it has not sufficiently explained the complicated issues around channel selection, attention, distraction, and identity. Furthermore, in my work I try to move beyond just adding new text or audio channels by adding other kinds of non-verbal signals.1
 
 Much of the work on creating shared media spaces, driven by experiments at PARC in the late 1980s and early 1990s is salient to my work. Although in some cases this work focused on creating new primary channels, researchers became quickly attuned to problems of privacy and attention because such systems always co-exist with face-to-face communication, in much the same way that the systems that I design do. The earliest work at PARC \citet{olsen_bly_portland} focused on creating flexible video connections between offices and conference rooms. Subsequent work focused less on a phone-call-like model where connections are created and ended and shifted towards creating spaces with different affordances. Sometimes these involved connecting multiple individuals together, as in CAVECAT \citet{cavecat}, other times researchers focused on creating a long term persistent video connections in, for instance, common areas of distributed research groups in the VideoWindow project\citet{videowindow}. 
 
