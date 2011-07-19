@@ -354,9 +354,23 @@ For a period, free form virtual worlds \sidenote{As opposed to game oriented wor
 Ultimately, this approach was simply recreating the ``being there'' approach by creating virtual spaces that looked like their physical world alternatives and assuming that avatars would be effective replacements for real bodies and failed to recognize the concrete interface challenges with interacting in a virtual world, as well as the potential benefits to working in a virtual world. In \emph{Information Spaces}, I reconsidered what a virtual world meeting space might look like and how it might give meeting participants ways to communicate with each other that they wouldn't have in face-to-face meetings. \citet{CHI_infospace_paper}
 
 
+\begin{figure*}[tp]
+	\includegraphics{figures/information-spaces-overview.png}
+	\caption{Information spaces.}
+	\label{fig:information-spaces-overview}
+\end{figure*}
+
+\begin{figure*}[tp]
+	\includegraphics{figures/information-spaces-features.png}
+	\caption{Information spaces features.}
+	\label{fig:information-spaces-features}
+\end{figure*}
+
+
 The \emph{Information Spaces} meeting space evokes a very abstract sports stadium. The floor of the field is a colored continuum between ``Agree'' and ``Disagree''. An alternative version of the system used ``Keep Talking'' and ``Move On'' to make the tool useful in discussions that weren't composed of decision-making tasks. Avatars can use their position in the space to indicate how they feel about the decision currently being discussed. Surrounding the colored field is a sloped space, like the stands in a stadium, where avatars can stand and be seen as participants without taking a stand on the issue at hand.
 
 This simple mechanic -- where you stand in the space non-verbally communicates your feelings about the meeting -- forms a nice foundation for what a virtual meeting room could look like. It uses the physical form of the space to communicate how it's supposed to be used, without recreating the architecture of a traditional meeting room. The problem is that movements in this space are ephemeral. If we want someone's position to be meaningful, we must highlight salient features of avatar movement like movement without the space, who's speaking, how long someone has stood somewhere, and so on. \emph{Information Spaces} provides these features through in-context visualizations.
+
 
 These different social utilities are summarized in figure \ref{fig:info_spaces_utilities}. When avatars stand still, a dwell indicator appears underneath their avatar which grows slowly the longer they don't move. This helps show avatars who are either fixed in their positions on a discussion question, or who might be idle; other visualizations help disambiguate between those two states. When an avatar moves, their dwell indicator shrinks slowly, and their path is mapped out with a transparent trail. Combined, these visualizations can tell simple stories about someone who had long disagreed on a point and then was swayed and shifted to being in the middle after a particularly convincing argument was made. On the gradient floor, the average position of avatars on the floor is displayed, to demonstrate a sort of visual consensus. In the space above the meeting room, this average is recorded over time by bars that float slowly up above the meeting room. Much like individual movement is recorded by trails on the meeting room floor, the history of the group average feeling is recorded by these floating bars in the sky. Chat messages are recorded similarly. Each time an avatar talks, a small box appears above them and floats up with the average vote bars. This history of the meeting helps participants reflect on meeting process by showing, similar to \citet{second_messenger}, relative participation. It adds to that work, though, by also showing where in the space people where when they were talking, which effectively adds socially significant metadata to the participation visualization.
 
@@ -369,6 +383,13 @@ These different social utilities are summarized in figure \ref{fig:info_spaces_u
 Face-to-face encounters, as described in the introduction, have a number of inconvenient biases. One venue where these biases rapidly become visible is when audiences ask questions of presenters and panelists at conferences. Many people might not be comfortable asking questions in front of an audience; those that do feel comfortable asking questions are often asking questions relevant only to themselves, not to the audience as a whole. Even if someone aspires to ask a question that is relevant to a broad section of the audience, how would they know? Furthermore, people tend to ask questions about the content towards the end of a presentation because it's foremost in their mind; recalling questions they might have had from early in the presentation is difficult.
 
 \emph{backchan.nl} addresses these problems by providing a shared space for asking questions and voting on other people's submitted questions. Votes can be either positive or negative. The top eight questions are projected on a display in the space that is visible to the audience, presenters, and moderators. Audience members submit their questions and votes using a web interface that is accessible on either a traditional web interface or an interface sized for mobile devices. Top questions are determined by a ranking algorithm that rewards recent, positive votes. This makes sure that the top posts view doesn't stagnate over long periods. 
+
+\begin{figure*}[t]
+	\includegraphics{figures/backchannl.png}
+	\caption{Backchannl}
+	\label{fig:backchannl}
+\end{figure*}
+
 
 Although it was initially designed for a specific panel-based conference, \emph{backchan.nl} has subsequently been deployed in a wide variety of situations. Over the systems almost three year lifetime, more than $400$ events have been created, with over $1200$ meetings. Almost $12000$ unique users have posted or voted in a \emph{backchan.nl} event, creating more than $15000$ posts with almost $60000$ votes. Its broad use has pushed it far beyond its original question-oriented focus. In our study on its use in a pair of early conferences to use \emph{backchan.nl} \citet{backchannl_chi}, we found that although we intended it to be used for questions, it quickly evolved to support content sharing, advertising other backchannels, technical support, as well as communicating about shared issues like temperature, audio problems, or lost items.
 
@@ -383,6 +404,13 @@ Issues around attention are also clearly at play with this work. Presenters usin
 
 
 The physically co-located small group discussion is often viewed as the gold standard for effective collaboration and communication.  It can provide a space for participants to voice their opinions and can readily lead to deliberation and collective problem solving \citet{Burkhalter:2002vg}. \emph{Tin Can Classroom} \sidenote{Parts of the writing in this section were written in collaboration with Prof. Eric Gordon as part of a conference paper submission currently in press. Prof. Gordon was also closely involved with the analysis and study design, as well as some of the design process.} applies the unique properties of a technological system to the established affordances of a small group discussion. We would not deny that face-to-face interaction offers many substantial benefits when compared to interactions mediated by, for instance, a video conferencing system; nevertheless, we argue that there is room to improve the physically proximate small group discussion by intervening in the assumed normal frameworks of turn-taking and attention.
+
+\begin{figure*}[t]
+	\includegraphics{figures/tin-can-classroom.png}
+	\caption{Tin Can Classroom.}
+	\label{fig:tin-can-clasroom}
+\end{figure*}
+
 
 The \emph{Tin Can Classroom} interface is focused on sharing ideas between students and the professor. On the right side of the interface is a time-sorted list of submitted ideas. Each idea has its authors name included. When creating an idea, students have the option of placing the idea in the public shared timeline or keeping it in their ``personal'' collection. Around the edge of the interface, each present student's name is shown. Clicking on that student reveals a collection of their personal ideas. Personal ideas can be dragged by anyone into the public idea timeline. This serves as an endorsement and a promotion, and the person who dragged the idea is listed as part of the idea's attribution. The system also helps keep track of conversation topics on the left side of the interface. In this particular class, the student who was running the discussion for the class session would prepare these discussion topics in advance and would manage transitions between them. The time spent on each topic is visualized on an analog clock in the center of the interface. At the end of each class session, all the participants are emailed with a record of the ideas and topics covered in the class session.
 
