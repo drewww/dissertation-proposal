@@ -62,28 +62,10 @@
 
 % Okay, here's what we'll do - leave the sync/async pendulum stuff to the background section as a way of framing the history of system design in this space. Focus on the beyond being there story for the introduction.
 
-\begin{marginfigure}
-	\includegraphics{figures/hole_in_space.jpg}
-	\caption{Photos of the Hole in Space exhibit sites in Los Angeles and New York City.}
-	\label{fig:hole-in-space}
-\end{marginfigure}
-
-\begin{marginfigure}
-	\includegraphics{figures/cisco-telepresence.png}
-	\caption{Still from a Cisco Telepresence advertisement, centered on connecting an Italian piazza with a Chinese square with a seamless window.}
-	\label{fig:cisco-telepresence}
-\end{marginfigure}
-
-\begin{marginfigure}
-	\includegraphics{figures/iphone-face-to-face.png}
-	\caption{Still from an Apple advertisement demonstrating the Facetime feature to enable mobile video conferencing.}
-	\label{fig:facetime}
-\end{marginfigure}
-
 
 As researchers first started to build technology to help us communicate with other people at a distance, a consensus on what the goal should be quickly arose: computer mediated communication systems should focus on recreating the experience of being face-to-face with another person. The best system, in this model, is one that seems to disappear in the same way that the best window makes us feel like there is nothing between us and what's on the other side of the glass. Since the early 1970s, it has seemed like we were on the cusp of making distance disappear and moving all our communication to mediated channels. \citep{Egido:1988vq} And yet, like the paperless office \citep{Sellen:2001uk}, we are left wondering if perhaps the persistence of a preference for face-to-face communication represents a similar failure to recognize both the subtle qualities of what we're trying to replace and the true potential of what we're trying to replace it with. 
 
-Implicit to this argument is the idea that face-to-face interaction is the gold standard against which we should measure new mediated communication systems. This blindness to the potential benefits of mediated communication systems also hides the many challenges of face-to-face interaction. A closer inspection of face-to-face interaction reveals a number of issues:
+Implicit to this argument is the idea that face-to-face interaction is the gold standard against which we should measure new mediated communication systems. This blindness to the potential benefits of mediated communication systems also hides the many challenges of face-to-face interaction. Is face-to-face interaction really the best we can hope for? Might there be benefits to hybrid experiences that blend mediation and face-to-face interaction? How might such an experience improve on face-to-face interactions alone? A closer inspection of face-to-face interaction reveals a number of potential ways we might improve on face-to-face interaction:
 
 
 \begin{itemize}
@@ -95,12 +77,34 @@ Implicit to this argument is the idea that face-to-face interaction is the gold 
 
 % I want to be able to cite the commercials, but it's a nightmare finding any information about them that might make them citable like where they appeared, when they appeared, who directed them, etc.
 
+
+\begin{marginfigure}
+	\includegraphics{figures/hole_in_space.jpg}
+	\caption{Photos of the Hole in Space exhibit sites in Los Angeles and New York City.}
+	\label{fig:hole-in-space}
+\end{marginfigure}
+
+
+
+
+\begin{marginfigure}
+	\includegraphics{figures/cisco-telepresence.png}
+	\caption{Still from a Cisco Telepresence advertisement, centered on connecting an Italian piazza with a Chinese square with a seamless window.}
+	\label{fig:cisco-telepresence}
+\end{marginfigure}
+
 Despite these challenges, there's still an undeniable magic to the pursuit of recreating face-to-face communication at a distance. This magic is most poetically captured in the famous ``Hole in Space'' \citep{HoleinSpace:1980vn} piece, visually and audibly connecting a storefront in Los Angeles and New York in a way that seemed to make distance disappear. This same magic continues to motivate modern communication tools from major companies; Cisco and Apple, among others, have played on this utopian vision of a future where distance is no barrier to communication in their commercials for so-called ``telepresence'' tools and mobile phones with cameras, respectively. This vision is not simply aspirational, either. Tools to communicate with physically distant people either with audio alone or with an added video connection play a role in the daily lives of millions of people. This desire to experience ``being there'' with someone else is powerful and compelling. 
+
+
+\begin{marginfigure}
+	\includegraphics{figures/iphone-face-to-face.png}
+	\caption{Still from an Apple advertisement demonstrating the Facetime feature to enable mobile video conferencing.}
+	\label{fig:facetime}
+\end{marginfigure}
 
 It is not, however, the only way to approach this problem. In their famous paper, \citet{Hollan:1992tz} suggest an alternative approach which they named ``beyond being there''. They argue that seeking to recreate the experience of ``being there'' was in a way an abdication of our responsibility as designers that left an important design space un-explored. In particular, they urge us to think less about ways to minimize the experience of mediation in communication, but to look instead for ways that mediation can add value to interactions. To take this perspective seriously, we need to shift away from a view of face-to-face interaction as being always better than interactions mediated by technology and instead think critically about potential limitations and challenges with face-to-face interaction and potential benefits that mediation can offer. 
 
-Although Hollan and Stornetta focus on creating mediated experiences that rival or surpass face-to-face experiences, I argue that there is another parallel strategy that deserves attention. The design techniques that support effective communication amongst groups of geographically remote groups might well be effective in supporting face-to-face groups as well. Indeed a system that can effectively complement face-to-face interaction when its users could simply set it aside and rely on the (presumed superior) affordances of unfettered verbal communication likely has something to tell us about both design and face-to-face interaction more generally. Furthermore, true ``distributed'' situations are relatively rare. Heterogenous configurations where some people are co-located and others are both remote and alone are becoming more frequent. In these contexts, a system that doesn't operate effectively between co-located users is unlikely to be broadly useful.
-
+Although Hollan and Stornetta focus on creating mediated experiences that rival or surpass face-to-face experiences, I argue that there is another parallel strategy that deserves attention. The design techniques that support effective communication amongst groups of geographically remote groups might well be effective in supporting face-to-face groups as well. Indeed a system that can effectively complement face-to-face interaction when its users could simply set it aside and rely on the (presumed superior) affordances of unfettered verbal communication likely has something to tell us about both design and face-to-face interaction more generally. Furthermore, true ``distributed'' situations are becoming less common. Heterogenous configurations where some people are co-located and others are remote and alone are becoming more common. In these contexts, a system that doesn't operate effectively between co-located users is unlikely to be broadly useful.
 
 
 
@@ -115,7 +119,7 @@ In my work, I focus primarily on these cases --- contexts where there is a co-lo
 
 % Part of what's attractive about mediated communication systems is that there is a tremendous variety of ways to design and use them once we set aside a desire to recreate face-to-face interaction. Although in this section I've contrasted mediated communication with face-to-face communication in a way that might imply that mediated communication systems are somehow monolithic and self-similar, the survey of related systems in the section to follow will illustrate the tremendous range of potential systems in this space and demonstrate how thoughtful designs can have widely varying impacts on the experience of communication or collaboration. 
 
-My work takes this general design of adding new communication channels in a few different directions. In this proposal, I will describe my past work looking at meetings in virtual worlds, audience-speaker interaction in presentations, and classroom discussions, as well as lay out my design for a system to support face-to-face meetings with remote participants. These research contexts vary both in the numbers of simultaneous participants, as well as their geographic configuration. Over the course of my work, I have shifted from configurations where all users are remote to heterogeneous situations where some or all of the participants are co-located. 
+My work takes this general design of adding new communication channels in a few different directions. In this proposal, I will describe my past work looking at meetings in virtual worlds, audience-speaker interaction in presentations, and classroom discussions, as well as lay out my design for a system to support face-to-face meetings with remote participants. These research contexts vary both in the numbers of simultaneous participants, as well as their geographic configuration. Over the course of my work, I have shifted my attention from configurations where all users are remote (\emph{Information Spaces}) to heterogeneous situations where some or all of the participants are co-located (\emph{backchan.nl}, \emph{Tin Can Classroom}, \emph{Tin Can Conference}). 
 
 Across this set of projects, I explore three major research themes:
 
