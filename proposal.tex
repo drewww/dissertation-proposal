@@ -49,7 +49,7 @@
 % \tableofcontents
 
 \begin{abstract}
-\noindent Although 20 years have passed since the ``beyond being there'' argument was first made, most of our communication and collaboration experiences have retained their focus on recreating face-to-face interaction. In this proposal, I outline my strategy for designing hybrid interfaces that move beyond face-to-face experiences by creating new mediated communication channels that complement existing synchronous communication channels. I use shared displays to help support creating common ground among users. I illustrate these design strategies using a series of three projects: \emph{Information Spaces}, \emph{backchan.nl}, and \emph{Tin Can Classroom} and describe my current project that ties these strategies together: \emph{Tin Can Conference}. In each of these projects I trace the influence of my three major research themes: grounding, non-verbal actions, and attention.
+\noindent Although 20 years have passed since the ``beyond being there'' argument was first made, most of our communication and collaboration experiences have retained their focus on recreating face-to-face interaction. In this proposal, I outline my strategy for designing hybrid interfaces that move beyond face-to-face experiences by creating new mediated communication channels that complement existing synchronous communication channels. I use shared displays to help support creating common ground among users. I illustrate these design strategies using a series of projects: \emph{Information Spaces}, \emph{backchan.nl}, and \emph{Tin Can Classroom} and describe my current project that ties these strategies together: \emph{Tin Can Conference}. In each of these projects I trace the influence of my three major research themes: grounding, non-verbal actions, and attention.
 \end{abstract}
 
 \tableofcontents
@@ -75,7 +75,7 @@
 % Okay, here's what we'll do - leave the sync/async pendulum stuff to the background section as a way of framing the history of system design in this space. Focus on the beyond being there story for the introduction.
 
 
-As researchers first started to build technology to help us communicate with other people at a distance, a consensus on what the goal should be quickly arose: computer mediated communication systems should focus on recreating the experience of being face-to-face with another person. The best system, in this model, is one that seems to disappear in the same way that the best window makes us feel like there is nothing between us and what's on the other side of the glass. Since the early 1970s, it has seemed like we were on the cusp of making distance disappear and moving all our communication to mediated channels. \citep{Egido:1988vq} And yet, like the paperless office \citep{Sellen:2001uk}, we are left wondering if perhaps the persistence of a preference for face-to-face communication represents a similar failure to recognize both the subtle qualities of what we're trying to replace and the true potential of what we're trying to replace it with. 
+As researchers first started to build technology to help us communicate with other people at a distance, a consensus on what the goal should be quickly arose: computer mediated communication systems should focus on recreating the experience of being face-to-face with another person. The best system, in this model, is one that seems to disappear in the same way that the best window makes us feel like there is nothing between us and what's on the other side of the glass. Since the early 1970s, it has seemed like we were on the cusp of making distance disappear and moving all our communication to mediated channels. \citep{Egido:1988vq} And yet, like the paperless office, we are left wondering if perhaps the persistence of a preference for face-to-face communication represents a similar failure to recognize both the subtle qualities of what we're trying to replace and the true potential of what we're trying to replace it with. 
 
 Implicit to this argument is the idea that face-to-face interaction is the gold standard against which we should measure new mediated communication systems. This blindness to the potential benefits of mediated communication systems also hides the many challenges of face-to-face interaction. Is face-to-face interaction really the best we can hope for? Might there be benefits to hybrid experiences that blend mediation and face-to-face interaction? How might such an experience improve on face-to-face interactions alone? A closer inspection of face-to-face interaction reveals a number of potential ways we might improve on face-to-face interaction:
 
@@ -175,13 +175,13 @@ In this proposal, I will start with a survey of relevant related systems, as wel
 
 Designing new systems for collaboration and communication, as opposed to studying existing systems, has long been a major stream of HCI and CSCW research. This section will summarize the most salient past work in this area, although little of this work is recent and responsive to the significant shifts in the way people use technology to communicate, collaborate, and play. 
 
-For a variety of reasons, there has been somewhat of a shift in interest away from the kind of hybrid face-to-face/mediated experiences I create towards building and studying systems for asynchronous experiences between much larger numbers of people. The advent of research on mass collaboration systems like \emph{Wikipedia} (e.g. \citep{Kittur:2007up}) and ``crowd sourcing'' (e.g. \citep{Bernstein:2010wk}) is part of a larger shift away from what was once the center of gravity of systems research. This shift is a natural response to changes in both technology and the common experience of modern collaborative technology users in a web-oriented world where asynchronous interaction became the norm.
+%For a variety of reasons, there has been somewhat of a shift in interest away from the kind of hybrid face-to-face/mediated experiences I create towards building and studying systems for asynchronous experiences between much larger numbers of people. The advent of research on mass collaboration systems like \emph{Wikipedia} (e.g. \citep{Kittur:2007up}) and ``crowd sourcing'' (e.g. \citep{Bernstein:2010wk}) is part of a larger shift away from what was once the center of gravity of systems research. This shift is a natural response to changes in both technology and the common experience of modern collaborative technology users in a web-oriented world where asynchronous interaction became the norm.
 
-In this work, I focus instead on interactions within groups both small and large, co-located and remote, but always co-temporal. Although interesting new sorts of work and communication structures are evolving in the asynchronous domain, we should think not just about how to marshal large numbers of people, but about how small groups of people who know each other work, recognizing that much of that work happens face-to-face or co-temporally while geographically distant. It is not effective to treat these interactions as a simple increase in tempo on asynchronous interactions. In synchronous systems, experiences of presence and understanding how we are perceived (and can control those perceptions) by others are quite important. In asynchronous systems, these issues are minimized; we experience others through their actions on shared objects like documents. In particular, we should look closely at the properties of these interactions and consider how we might add 
+In this work, I focus on interactions within groups both small and large, co-located and remote, but always co-temporal. Although interesting new sorts of work and communication structures are evolving in the asynchronous domain, we should think not just about how to marshal large numbers of people, but about how small groups of people who know each other work, recognizing that much of that work happens face-to-face or co-temporally while geographically distant. It is not effective to treat these interactions as a simple increase in tempo on asynchronous interactions. In synchronous systems, it is much more important to understand how we are perceived (and can control those perceptions) by others. In asynchronous systems, these issues are minimized; we experience others through their actions on shared objects like documents. 
 
 % In my work, I seek to create richer representations of people and better-support person-person interaction instead of person-document-person interaction. 
 
-My survey of related work is organized into three major design strategies: translucence and awareness, adding new communication channels, and design techniques to help people reflect on their own participation and the participation of others. These design strategies have influenced my own design process and have important findings related to my three main research themes: grounding, actions, and attention. As I discuss each design strategy, I will point out (as appropriate) their connections to the main research themes. Table \ref{tab:related-work} summarizes the major work covered in this section, and its relationship with the three themes. 
+My survey of related work is organized into three major design strategies: translucence and awareness, adding new communication channels, and design techniques to help people reflect on their own participation and the participation of others. These design strategies have influenced my own design process and have important findings related to my three main research themes: grounding, actions, and attention. As I discuss each design strategy, I will point out their connections to the main research themes. Table \ref{tab:related-work} summarizes the major work covered in this section, and its relationship with the three themes. 
 
 
 % TODO think about whether to add in a chunk about theoretical perspectives here. Ultimately in the final dissertation there will need to (probably) be a chapter or serious chunk of one laying our theoretical perspecives on grounding, attention, and non-verbal actions. But I don't really want to have to do that now.
@@ -213,35 +213,31 @@ My survey of related work is organized into three major design strategies: trans
 \midrule
 
 
-\multicolumn{2}{l}{Channels} & & & & \\
-\midrule
-& Class Backchannels & $\cdot$ & $\cdot$ &$\bullet$& \citep{Yardi:2006uk} \\
-& Conference Backchannels & $\cdot$ & $\cdot$ &$\bullet$& \citep{mccarthy_digital_2004} \\
+\multicolumn{2}{l}{Channels} & & & & \\ \midrule & Class Backchannels &
+$\cdot$ & $\cdot$ &$\bullet$& \citep{Yardi:2006uk} \\ & Conference
+Backchannels & $\cdot$ & $\cdot$ &$\bullet$& \citep{mccarthy_digital_2004} \\
 & Semi-Public Displays &$\bullet$&$\bullet$&$\bullet$& \citep{Huang:2003ef} \\
-& \emph{Rendezvous} &$\bullet$&$\bullet$& $\cdot$ & \citep{kellogg_leveraging_2006} \\
-& Audio Backchannels & $\cdot$ &$\bullet$&$\bullet$& \citep{Yankelovich:2005bx} \\
-& Fragmented Social Mirror & $\CIRCLE$ & $\bullet$ & $\bullet$ & \citep{Bergstrom:wl} \\
-& \emph{VideoWindow} &$\bullet$& $\cdot$ &$\bullet$& \citep{Fish:1990fn} \\
-& \emph{Thunderwire} & $\cdot$ &$\bullet$& $\CIRCLE$ & \citep{Hindus:1996cn} \\
-& \emph{iCom} &$\bullet$&$\bullet$&$\bullet$& \citep{Agamanolis:2003wc} \\
-& \emph{Portholes} &$\bullet$& $\cdot$ &$\bullet$& \citep{Dourish:1992fu} \\
-& \emph{Cruiser} & $\cdot$ & $\CIRCLE$ &$\bullet$& \citep{Fish:1992vz} \\
-& GDSS & $\CIRCLE$ &$\bullet$& $\cdot$ & \citep{nunamaker_electronic_1991} \\
-& \emph{Cognoter} & $\CIRCLE$ & $\CIRCLE$ & $\CIRCLE$ & \citep{Tatar:1991jq} \\
-\midrule
-\multicolumn{2}{l}{Reflection} & & & & \\
-\midrule
-& \emph{Second Messenger} &$\bullet$& $\cdot$ & $\cdot$ & \citep{DiMicco:2007ie} \\
-& \emph{Meeting Mediator} &$\bullet$& $\cdot$ & $\cdot$ & \citep{Kim:2008ip} \\
-& \emph{Conversation Clusters} &$\bullet$& $\cdot$ &$\bullet$& \citep{Bergstrom:2009fe} \\
-& \emph{Conversation Votes} &$\bullet$&$\bullet$&$\bullet$& \citep{Bergstrom:2009ej} \\
-& \emph{Conversation Clock} &$\bullet$& $\cdot$ &$\bullet$& \citep{Bergstrom:2007je} \\
-\bottomrule
-\end{tabular}
-\vspace{3em}
-\caption{A summary of the major related work to be discussed in this section and its relationship with the main research themes.
-}
-\label{tab:related-work}
+& \emph{Rendezvous} &$\bullet$&$\bullet$& $\cdot$ &
+\citep{kellogg_leveraging_2006} \\ & Audio Backchannels & $\cdot$
+&$\bullet$&$\bullet$& \citep{Yankelovich:2005bx} \\ & Fragmented Social Mirror
+& $\CIRCLE$ & $\bullet$ & $\bullet$ & \citep{Bergstrom:wl} \\ &
+\emph{VideoWindow} &$\bullet$& $\cdot$ &$\bullet$& \citep{Fish:1990fn} \\ &
+\emph{Thunderwire} & $\cdot$ &$\bullet$& $\CIRCLE$ & \citep{Hindus:1996cn} \\
+& \emph{iCom} &$\bullet$&$\bullet$&$\bullet$& \citep{Agamanolis:2003wc} \\ &
+\emph{Portholes} &$\bullet$& $\cdot$ &$\bullet$& \citep{Dourish:1992fu} \\ &
+\emph{Cruiser} & $\cdot$ & $\CIRCLE$ &$\bullet$& \citep{Fish:1992vz} \\ & GDSS
+& $\CIRCLE$ &$\bullet$& $\cdot$ & \citep{nunamaker_electronic_1991} \\ &
+\emph{Cognoter} & $\CIRCLE$ & $\CIRCLE$ & $\CIRCLE$ & \citep{Tatar:1991jq} \\
+\midrule \multicolumn{2}{l}{Reflection} & & & & \\ \midrule & \emph{Second
+Messenger} &$\bullet$& $\cdot$ & $\cdot$ & \citep{DiMicco:2007ie} \\ &
+\emph{Meeting Mediator} &$\bullet$& $\cdot$ & $\cdot$ & \citep{Kim:2008ip} \\
+& \emph{Conversation Clusters} &$\bullet$& $\cdot$ &$\bullet$&
+\citep{Bergstrom:2009fe} \\ & \emph{Conversation Votes}
+&$\bullet$&$\bullet$&$\bullet$& \citep{Bergstrom:2009ej} \\ &
+\emph{Conversation Clock} &$\bullet$& $\cdot$ &$\bullet$&
+\citep{Bergstrom:2007je} \\ \bottomrule \end{tabular} \vspace{3em} \caption{A
+summary of the major related work to be discussed in this section and its
+relationship with the main research themes. } \label{tab:related-work}
 \end{table*}
 
 \subsection{Translucence \& Awareness}
@@ -339,7 +335,7 @@ Over time, attention shifted more towards a taking advantage of the possibilitie
 % (For subsequent, more artistically inclined approaches to this design space, see Karrie's blah blah, get a nice figure in here for that.)
 
 
-Serendipity also evolved as an important part of sharing an office environment that was not present with most media space systems. Portholes \citep{Dourish:1992fu} addressed this explicitly by giving people a broader view of remote spaces instead of focusing just on main channel interactions. While my work is not concerned with serendipity, this kind of visual side channel carries important awareness information in much the same way that the side channels in my systems add important contextual information to an interaction. CRUISER \citep{Fish:1992vz} offered non-verbal ways to signal a desire to emulate some of the office hallway etiquette for signaling a desire to drop in and chat informally, without the explicitness of placing a call. The addition of moves like ``cruise'', ``glance'', and ``visit'' are similar in approach to the non-verbal actions at the core of my work like voting in backchan.nl, promoting ideas in Tin Can, or moving around the field in Information Spaces. 
+Serendipity also evolved as an important part of sharing an office environment that was not present with most media space systems. Portholes \citep{Dourish:1992fu} addressed this explicitly by giving people a broader view of remote spaces instead of focusing just on main channel interactions. While my work is not concerned with serendipity, this kind of visual side channel carries important awareness information in much the same way that the side channels in my systems add important contextual information to an interaction. CRUISER \citep{Fish:1992vz} offered non-verbal ways to signal a desire to emulate some of the office hallway etiquette for signaling a desire to drop in and chat informally, without the explicitness of placing a call. The addition of moves like ``cruise'', ``glance'', and ``visit'' are similar in approach to the non-verbal actions at the core of my work like voting in \emph{backchan.nl}, promoting ideas in \emph{Tin Can Classroom}, or moving around the field in \emph{Information Spaces}. 
 
 Early media space researchers proposed a distinction between ``formal'' systems from ``informal'' systems. \citep{Olson:1991vz} While most of the work discussed here (and much of my own work) tends towards the informal side of that continuum, there are some formal elements in my work. This formality manifests most strongly in Group Decision Support Systems research. These systems (exemplified by the work of Nunamaker \citep{nunamaker_electronic_1991}) provide prescriptive systems to support particular brainstorming, decision making, outlining, and voting schemes or policies. In the typical GDSS configuration, each participant has their own computer and interacts with shared structured data in some way, like submitting a new idea or voting on a proposal. In systems like this, the assumption is that having a structured display will ground otherwise informal processes by forcing participants to use the actions the system provides as a set of legitimate conversational moves. Although I tend towards informal systems in my work, the work in this space nonetheless has much to teach us about grounding and actions. 
 
@@ -460,7 +456,9 @@ Bergstrom has done a series of projects that adopt a similar design strategy. \e
 
 
 % MATT TODO FIX THE MIDDLE OF THIS PARAGRAPH IT'S AWFUL
-These are all examples of the accumulate and reflect design strategy, where the system tracks some aspect of behavior: spoken participation in the case of \emph{Second Messenger} and \emph{Meeting Mediator}, discussion topics and group attitudes in the case of Bergstrom's work. The systems then present that information back to the individual or group with the intention that to reflect on and adjust their behavior. Furthermore, all of these projects have an element of grounding to them. By presenting this social information on a shared display (as in my work), it is made salient to the discussion in a way that private displays cannot.
+These are all examples of the accumulate and reflect design strategy, where the system tracks some aspect of behavior: spoken participation in the case of \emph{Second Messenger} and \emph{Meeting Mediator}, discussion topics and group attitudes in the case of Bergstrom's work. 
+
+%The systems then present that information back to the individual or group with the intention that to reflect on and adjust their behavior. Furthermore, all of these projects have an element of grounding to them. By presenting this social information on a shared display (as in my work), it is made salient to the discussion in a way that private displays cannot.
 
 % cite things like last.fm, goodreads, etc in this space?
 
@@ -498,42 +496,42 @@ These are all examples of the accumulate and reflect design strategy, where the 
 
 \section{Projects}
 
-I have explored my primary theme of adding communication channels to synchronous communication through a series of design research projects. In each piece, I focus on different contexts, group sizes, and needs. In this section, I will describe my four major projects that my dissertation will cover: \emph{Information Spaces}, \emph{backchan.nl}, \emph{Tin Can Classroom}, and \emph{Tin Can Conference}. 
+I have explored my primary theme of adding communication channels to synchronous communication through a series of design research projects. In each piece, I focus on different contexts, group sizes, and needs. In this section, I will describe my three of the projects that my dissertation will cover: \emph{backchan.nl}, \emph{Tin Can Classroom}, and \emph{Tin Can Conference}. \sidenote{A fourth project, \emph{Information Spaces}, will also be part of the dissertation, but is omitted here for the sake of brevity. It is described in some depth in \citep{Harry:2008ww}. Other virtual world related work on representational technique and metaphor can be found in \citep{Harry:2008tg}, \citep{Harry:2007cm}, and \citep{Harry:2008vx}.}
 
 % talk about approach here: why design things? what do we get out of designing things? what questions do we hope to answer? how does this compare to other strategies?
 
-\subsection{Information Spaces}
-
-% think about where to add a ref to our chairs piece in that book.
-% Also add a bit that calls back to our major themes. History is about grounding, movement and visualization is about signaling. 
-
-% Consider dropping this whole section? Not sure if it's important/relevant/if I have space for it.
-For a period, free form virtual worlds \sidenote{As opposed to game oriented worlds like \emph{World of Warcraft}, which are still the only major long-term commercially successful worlds.} like \emph{Second Life} seemed like they might present a credible alternative to traditional video and audio conferencing. Researchers found that people replicated certain face-to-face social conventions in virtual worlds, for instance maintaining similar interpersonal distances as a function of gender as one might in the physical world \citep{Yee:2007cl} or reacting to avatar height in the same ways people do when face-to-face \citep{Yee:2009vt}. Furthermore, the rich signals from body language, fashion, and gaze might more easily translate to environments where we are embodied by three dimensional avatars than other alternative systems. In response, residents of \emph{Second Life} and large corporate entities like IBM \citep{Shami:2010vi} created elaborate virtual office spaces.
-
-Ultimately, this approach was simply recreating the ``being there'' approach by creating virtual spaces that looked like their physical world alternatives and assuming that avatars would be effective replacements for real bodies and failed to recognize the practical interface challenges with interacting in a virtual world, as well as the potential benefits to working in a virtual world. In \emph{Information Spaces}, I reconsidered what a virtual world meeting space might look like and how it might give meeting participants ways to communicate with each other that they wouldn't have in face-to-face meetings. \sidenote{This work is described in more depth in  \citep{Harry:2008ww}.}
-
-
-\begin{figure*}[t]
-	\includegraphics{figures/information-spaces-overview.png}
-	\caption{Screenshot of \emph{Information Spaces} in use, showing all the major features at once.}
-	\label{fig:information-spaces-overview}
-\end{figure*}
-
-\begin{figure*}[t]
-	\includegraphics{figures/information-spaces-features.png}
-	\caption{Series of screenshots showing each of the major visualizations. Clockwise from upper left: overall layout, average vote indicator, dwell, movement trails, average history, chat history.}
-	\label{fig:information-spaces-features}
-\end{figure*}
-
-
-The \emph{Information Spaces} meeting space evokes a very abstract sports stadium. The floor of the field is a colored continuum between ``Agree'' and ``Disagree''. An alternative version of the system used ``Keep Talking'' and ``Move On'' to make the tool useful in discussions that weren't composed of decision-making tasks. Avatars can use their position in the space to indicate how they feel about the decision currently being discussed. Surrounding the colored field is a sloped space, like the stands in a stadium, where avatars can stand and be seen as participants without taking a stand on the issue at hand.
-
-This simple mechanic---where you stand in the space non-verbally communicates your feelings about the meeting---forms a nice foundation for what a virtual meeting room could look like. This is an example of the kind of non-verbal actions that mediated communication can create as an alternative to the subtle face-to-face body language we might have traditionally used to communicate our attitude. It uses the physical form of the space to communicate how it's supposed to be used, without recreating the architecture of a traditional meeting room. The problem is that movements in this space are ephemeral, as they would be face-to-face. If we want someone's position to be meaningful, we must highlight salient features of avatar movement like movement without the space, who's speaking, how long someone has stood somewhere, and so on. \emph{Information Spaces} provides these features through in-context visualizations that reflect people's non-verbal actions back to themselves and others. 
-
-
-These different social utilities are summarized in figure \ref{fig:information-spaces-features}. When avatars stand still, a dwell indicator appears underneath their avatar which grows slowly the longer they don't move. This helps show avatars who are either fixed in their positions on a discussion question, or who might be idle; other visualizations help disambiguate between those two states. When an avatar moves, their dwell indicator shrinks slowly, and their path is mapped out with a transparent trail. Combined, these visualizations can tell simple stories about someone who had long disagreed on a point and then was swayed and shifted to being in the middle after a particularly convincing argument was made. On the gradient floor, the average position of avatars on the floor is displayed, to demonstrate a sort of visual consensus. In the space above the meeting room, this average is recorded over time by bars that float slowly up above the meeting room. Much like individual movement is recorded by trails on the meeting room floor, the history of the group average feeling is recorded by these floating bars in the sky. Chat messages are recorded similarly. Each time an avatar talks, a small box appears above them and floats up with the average vote bars. This history of the meeting helps participants reflect on meeting process by showing, similar to \citep{DiMicco:2007ie}, relative participation. It adds to that work by also showing a person's location in the space where they were talking, which effectively adds socially significant metadata to the participation visualization.
-
-These visualizations contribute to my main research themes in a number of ways. By not relying on face-to-face techniques for communicating agreement or disagreement \sidenote{More on questions of representational technique and metaphor can be found in \citep{Harry:2008tg}, \citep{Harry:2007cm}, and \citep{Harry:2008vx}. This is a subtle issue, and although in general I advocate for creating new vocabularies specifically for mediated contexts, the power of well-chosen existing metaphors should not be discounted.} we can add expressive power to an experience. Furthermore, by using shared visualizations to represent those actions we make salient and persistent the actions of others in a way we cannot in face-to-face contexts. Ideally, this allows conversation participants to more easily discuss patterns in participation, although in our trials the limited interface fluency of most \emph{Second Life} users diminished the extent to which they could attend to these visualizations, particularly the historical visualizations that float above the space.
+% \subsection{Information Spaces}
+% 
+% % think about where to add a ref to our chairs piece in that book.
+% % Also add a bit that calls back to our major themes. History is about grounding, movement and visualization is about signaling. 
+% 
+% % Consider dropping this whole section? Not sure if it's important/relevant/if I have space for it.
+% For a period, free form virtual worlds \sidenote{As opposed to game oriented worlds like \emph{World of Warcraft}, which are still the only major long-term commercially successful worlds.} like \emph{Second Life} seemed like they might present a credible alternative to traditional video and audio conferencing. Researchers found that people replicated certain face-to-face social conventions in virtual worlds, for instance maintaining similar interpersonal distances as a function of gender as one might in the physical world \citep{Yee:2007cl} or reacting to avatar height in the same ways people do when face-to-face \citep{Yee:2009vt}. Furthermore, the rich signals from body language, fashion, and gaze might more easily translate to environments where we are embodied by three dimensional avatars than other alternative systems. In response, residents of \emph{Second Life} and large corporate entities like IBM \citep{Shami:2010vi} created elaborate virtual office spaces.
+% 
+% Ultimately, this approach was simply recreating the ``being there'' approach by creating virtual spaces that looked like their physical world alternatives and assuming that avatars would be effective replacements for real bodies and failed to recognize the practical interface challenges with interacting in a virtual world, as well as the potential benefits to working in a virtual world. In \emph{Information Spaces}, I reconsidered what a virtual world meeting space might look like and how it might give meeting participants ways to communicate with each other that they wouldn't have in face-to-face meetings. \sidenote{This work is described in more depth in  \citep{Harry:2008ww}.}
+% 
+% 
+% \begin{figure*}[t]
+% 	\includegraphics{figures/information-spaces-overview.png}
+% 	\caption{Screenshot of \emph{Information Spaces} in use, showing all the major features at once.}
+% 	\label{fig:information-spaces-overview}
+% \end{figure*}
+% 
+% \begin{figure*}[t]
+% 	\includegraphics{figures/information-spaces-features.png}
+% 	\caption{Series of screenshots showing each of the major visualizations. Clockwise from upper left: overall layout, average vote indicator, dwell, movement trails, average history, chat history.}
+% 	\label{fig:information-spaces-features}
+% \end{figure*}
+% 
+% 
+% The \emph{Information Spaces} meeting space evokes a very abstract sports stadium. The floor of the field is a colored continuum between ``Agree'' and ``Disagree''. An alternative version of the system used ``Keep Talking'' and ``Move On'' to make the tool useful in discussions that weren't composed of decision-making tasks. Avatars can use their position in the space to indicate how they feel about the decision currently being discussed. Surrounding the colored field is a sloped space, like the stands in a stadium, where avatars can stand and be seen as participants without taking a stand on the issue at hand.
+% 
+% This simple mechanic---where you stand in the space non-verbally communicates your feelings about the meeting---forms a nice foundation for what a virtual meeting room could look like. This is an example of the kind of non-verbal actions that mediated communication can create as an alternative to the subtle face-to-face body language we might have traditionally used to communicate our attitude. It uses the physical form of the space to communicate how it's supposed to be used, without recreating the architecture of a traditional meeting room. The problem is that movements in this space are ephemeral, as they would be face-to-face. If we want someone's position to be meaningful, we must highlight salient features of avatar movement like movement without the space, who's speaking, how long someone has stood somewhere, and so on. \emph{Information Spaces} provides these features through in-context visualizations that reflect people's non-verbal actions back to themselves and others. 
+% 
+% 
+% These different social utilities are summarized in figure \ref{fig:information-spaces-features}. When avatars stand still, a dwell indicator appears underneath their avatar which grows slowly the longer they don't move. This helps show avatars who are either fixed in their positions on a discussion question, or who might be idle; other visualizations help disambiguate between those two states. When an avatar moves, their dwell indicator shrinks slowly, and their path is mapped out with a transparent trail. Combined, these visualizations can tell simple stories about someone who had long disagreed on a point and then was swayed and shifted to being in the middle after a particularly convincing argument was made. On the gradient floor, the average position of avatars on the floor is displayed, to demonstrate a sort of visual consensus. In the space above the meeting room, this average is recorded over time by bars that float slowly up above the meeting room. Much like individual movement is recorded by trails on the meeting room floor, the history of the group average feeling is recorded by these floating bars in the sky. Chat messages are recorded similarly. Each time an avatar talks, a small box appears above them and floats up with the average vote bars. This history of the meeting helps participants reflect on meeting process by showing, similar to \citep{DiMicco:2007ie}, relative participation. It adds to that work by also showing a person's location in the space where they were talking, which effectively adds socially significant metadata to the participation visualization.
+% 
+% These visualizations contribute to my main research themes in a number of ways. By not relying on face-to-face techniques for communicating agreement or disagreement \sidenote{More on questions of representational technique and metaphor can be found in \citep{Harry:2008tg}, \citep{Harry:2007cm}, and \citep{Harry:2008vx}. This is a subtle issue, and although in general I advocate for creating new vocabularies specifically for mediated contexts, the power of well-chosen existing metaphors should not be discounted.} we can add expressive power to an experience. Furthermore, by using shared visualizations to represent those actions we make salient and persistent the actions of others in a way we cannot in face-to-face contexts. Ideally, this allows conversation participants to more easily discuss patterns in participation, although in our trials the limited interface fluency of most \emph{Second Life} users diminished the extent to which they could attend to these visualizations, particularly the historical visualizations that float above the space.
 
 
 % do I need to say anything about evaluation here? or can I just end it here?
@@ -552,7 +550,9 @@ Face-to-face encounters, as described in the introduction, have a number of inco
 \end{figure*}
 
 
-Although it was initially designed for a specific panel-based conference, \emph{backchan.nl} has subsequently been deployed in a wide variety of situations. Over the system's almost three year lifetime, more than $400$ events have been created, with over $1200$ meetings. Almost $12000$ unique users have posted or voted in a \emph{backchan.nl} event, creating more than $15000$ posts with almost $60000$ votes. Its broad use has pushed it far beyond its original question-oriented focus. In our study on its use in a pair of early conferences to use \emph{backchan.nl}, we found that although we intended it to be used for questions, it quickly evolved to support content sharing, advertising other backchannels, technical support, as well as communicating about shared issues like temperature, audio problems, or lost items.\sidenote{The system has also been used in classrooms, in ways similar to those described in the popular press by \citep{Gabriel:2011vz}. Since \emph{backchan.nl} was first designed, \citet{Bergstrom:wl} has described a system with similar properties, but for more structured environments like a lecture class.}
+Although it was initially designed for a specific panel-based conference, \emph{backchan.nl} has subsequently been deployed in a wide variety of situations. Over the system's almost three year lifetime, more than $400$ events have been created, with over $1200$ meetings. Almost $12000$ unique users have posted or voted in a \emph{backchan.nl} event, creating more than $15000$ posts with almost $60000$ votes. Its broad use has pushed it far beyond its original question-oriented focus. In our study on its use in a pair of early conferences to use \emph{backchan.nl}, we found that although we intended it to be used for questions, it quickly evolved to support content sharing, advertising other backchannels, technical support, as well as communicating about shared issues like temperature, audio problems, or lost items.
+
+%Since \emph{backchan.nl} was first designed, \citet{Bergstrom:wl} has described a system with similar properties, but for more structured environments like a lecture class.}
 
 My main finding in the \emph{backchan.nl} work was focused on the importance of a shared display to create a space that could promote common ground among audience members and between the audience and presenters. The major problem with past work in this area was, in my view, that backchannels tended to be invisible in the presentation space itself. This led to a number of issues. Conversations tended towards criticism and snarky-ness, not constructive commentary. This is seen most vividly in a Web2.0 Expo talk from danah boyd in 2009 \sidenote{Described from a first person perspective by \citet{boyd:Yo36SNyj}.} and the so-called ``revolt'' at a Mark Zuckerburg interview in 2008\sidenote{Reported after the event in \citep{Wallace:2008vb}. }. With \emph{backchan.nl}, I found this sort of discourse was quite rare and when it did occur it tended to be voted down quickly. The grounding created by the shared display was also important for created a sense of shared space that made it a useful venue for non-question activities like advertising. 
 
@@ -564,7 +564,7 @@ Issues around attention are also clearly at play with this work. Presenters usin
 \subsection{Tin Can Classroom}
 
 
-The physically co-located small group discussion is often viewed as the gold standard for effective collaboration and communication.  It can provide a space for participants to voice their opinions and can readily lead to deliberation and collective problem solving \citep{Burkhalter:2002vg}. \emph{Tin Can Classroom} \sidenote{Parts of the writing in this section were written in collaboration with Prof. Eric Gordon as part of a conference paper submission currently in press. Prof. Gordon was also closely involved with the analysis and study design, as well as some of the design process.} applies the unique properties of a technological system to the established affordances of a small group discussion. We would not deny that face-to-face interaction offers many substantial benefits when compared to interactions mediated by, for instance, a video conferencing system; nevertheless, we argue that there is room to improve the physically proximate small group discussion by intervening in the assumed normal frameworks of turn-taking and attention.
+The physically co-located small group discussion is often viewed as the gold standard for effective collaboration and communication.  It can provide a space for participants to voice their opinions and can readily lead to deliberation and collective problem solving. \emph{Tin Can Classroom} \sidenote{Parts of the writing in this section were written in collaboration with Prof. Eric Gordon as part of a conference paper submission currently in press. Prof. Gordon was also closely involved with the analysis and study design, as well as some of the design process.} applies the unique properties of a technological system to the established affordances of a small group discussion. We would not deny that face-to-face interaction offers many substantial benefits when compared to interactions mediated by, for instance, a video conferencing system; nevertheless, we argue that there is room to improve the physically proximate small group discussion by intervening in the assumed normal frameworks of turn-taking and attention.
 
 \begin{figure*}[t]
 	\includegraphics{figures/tin-can-classroom.png}
@@ -610,7 +610,7 @@ Activity in \emph{Tin Can Conference} serves two simultaneous purposes. The firs
 
 Studying systems like \emph{Tin Can Conference} posts a number of challenges. Modern HCI evaluation is generally focused on lab studies with participants recruited for a single session. This kind of evaluation is simply not effective for addressing my research themes because many of the processes at work in meetings are very difficult to recreate in a lab setting. On the design level, I am interested in understanding how the system is appropriated and what practices develop around its use. Laboratory studies inhibit this process because they inscribe agency on study participants by telling them how they should use the system and making clear both in implicit and explicit ways what kind of behavior is desired. This makes it difficult to make any claims about authentic user practice.
 
-Furthermore, in my past work it has become evident that a group's failure to appreciate a system the first time they use it is not at all predictive of their long-term feelings about the system. This is most clearly evident for \emph{backchan.nl} installations. Nearly every first session of a conference using \emph{backchan.nl} involves a certain amount of hand-wringing from participants about \emph{backchan.nl}'s lack of conversational features, lack of integration with \emph{Twitter}, and a variety of other shortcomings. Yet, after a few sessions of use most critics have come around and report appreciating the tool. Although initial condition issues are widely recognized in the literature, studies are rarely designed to explore the consequences of long term use. It is central to my evaluation efforts to avoid the trap of drawing conclusions from people's single experiences with \emph{Tin Can Conference}.
+%Furthermore, in my past work it has become evident that a group's failure to appreciate a system the first time they use it is not at all predictive of their long-term feelings about the system. This is most clearly evident for \emph{backchan.nl} installations. Nearly every first session of a conference using \emph{backchan.nl} involves a certain amount of hand-wringing from participants about \emph{backchan.nl}'s lack of conversational features, lack of integration with \emph{Twitter}, and a variety of other shortcomings. Yet, after a few sessions of use most critics have come around and report appreciating the tool. Although initial condition issues are widely recognized in the literature, studies are rarely designed to explore the consequences of long term use. It is central to my evaluation efforts to avoid the trap of drawing conclusions from people's single experiences with \emph{Tin Can Conference}.
 
 Creating an evaluation strategy that allows for long-term use in authentic contexts with a group of users who both know each other and have real work to conduct using the system poses a number of challenges. While we were able to achieve this for the \emph{Tin Can Classroom} study, there are some differences in the way we will evaluate \emph{Tin Can Conference}. The primary difference is that I am hoping to deploy the system in a corporate context with a work group that holds frequent distributed meetings and is willing to stick with the tool for a number of sessions both to provide opportunities for analytical insight into how their practices change over time, as well as time to iterate on the design of the system itself. As in the \emph{Tin Can Classroom} study, I hope to be present for these meetings, although this is proving to be a somewhat contentious point with some potential study participants. Similarly, I hope to collect process traces from the meetings, but in a corporate context this kind of data collection can be viewed as somewhat threatening. After the completion of a set of meetings using \emph{Tin Can Classroom} I will interview participants to explore both the impact of the design itself and my primary research themes of non-verbal actions, grounding, and attention.
 
@@ -618,7 +618,7 @@ Creating an evaluation strategy that allows for long-term use in authentic conte
 
 \section{Research Plan}
 
-Much of this work has already been completed. The three past projects, \emph{Information Spaces}, \emph{backchan.nl}, and \emph{Tin Can Classroom} are done and written up. Most of the engineering for the final project, \emph{Tin Can Conference}, has been completed, although there will undoubtedly be non-trivial work in adapting the system in response to deployment experiences.
+Much of this work has already been completed. Three past projects that will be discussed in the dissertation, \emph{Information Spaces}, \emph{backchan.nl}, and \emph{Tin Can Classroom} are done and written up. Most of the engineering for the final project, \emph{Tin Can Conference}, has been completed, although there will undoubtedly be non-trivial work in adapting the system in response to deployment experiences.
 
 The last major hurdle is deploying \emph{Tin Can Conference}. I've recruited a corporate partner to be a testing venue, and am moving forward with a deployment with a team of senior managers right now. They hold periodic (every 2-3 weeks) distributed meetings between three geographically separated venues, so it will be a great environment to test the system. The low meeting frequency will cause testing to take a while, but will provide ample time to iterate on the design as testing reveals problems and opportunities. 
 
